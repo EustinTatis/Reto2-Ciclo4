@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_asados.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_bebidas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_burger.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_desgranados.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_domicilios.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_eventos.xml" value="0.33" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_juegos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_perro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_picadas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_pinchos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_pizza.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_promociones.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main_salchipapa.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment_3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment__inicio.xml" value="0.1" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment_burger1.xml" value="0.1" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment_burger2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment_burger3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment_burger_inicial.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment_fragment1.xml" value="0.25" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment_fragment2.xml" value="0.25" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment_perro.xml" value="0.16" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment_promociones.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/Reto2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/Reto2/app/src/main/res/layout/fragment__inicio.xml" value="0.1" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/Reto2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/papat/AndroidStudioProjects/Reto2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/pluis/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/pluis/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment__inicio.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pluis/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment_fragment1.xml" value="0.264" />
+        <entry key="..\:/Users/pluis/AndroidStudioProjects/EjemploFragmentos/app/src/main/res/layout/fragment_fragment2.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

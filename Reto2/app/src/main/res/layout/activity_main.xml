@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/boton_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            app:srcCompat="@drawable/ic_baseline_home_24"
+            android:background="@color/naranja_primario"/>
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="PRODUCTOS"
+            android:background="@color/white"
+            android:textSize="17dp"
+            android:fontFamily="@font/font3"/>
+
+        <Button
+            android:id="@+id/boton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="SERVICIOS"
+            android:background="@color/white"
+            android:textSize="17dp"
+            android:fontFamily="@font/font3"/>
+
+        <Button
+            android:id="@+id/boton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SUCURSALES"
+            android:onClick="onClick"
+            android:background="@color/white"
+            android:textSize="17dp"
+            android:fontFamily="@font/font3"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedor_fragments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

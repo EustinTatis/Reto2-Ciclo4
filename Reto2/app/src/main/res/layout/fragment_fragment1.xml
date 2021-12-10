@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragment1">
+
+<LinearLayout
+    android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+tools:context=".MainActivity_productos">
+
+    <ImageView
+        android:id="@+id/imagen1_Productos"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:src="@drawable/productos" />
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/texto1_Productos"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font2"
+                    android:gravity="center|left"
+                    android:text="Hamburguesas"
+                    android:textSize="30dp"
+                    android:drawableBottom="@color/black"/>
+
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/hamburguesa3" />
+
+                <ImageView
+                    android:id="@+id/flecha1_productos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/texto2_Productos"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font2"
+                    android:gravity="center|left"
+                    android:text="PERROS CALIENTES"
+                    android:textSize="30dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imagen3_Productos"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/perro" />
+
+                <ImageView
+                    android:id="@+id/flecha2_productos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/texto3_Productos"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font2"
+                    android:gravity="center|left"
+                    android:text="PIZZAS"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imagen4_Productos"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/pizza" />
+
+                <ImageView
+                    android:id="@+id/flecha3_productos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/texto4_Productos"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font2"
+                    android:gravity="center|left"
+                    android:text="SALCHIPAPAS"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imagen5_Productos"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/salchipapa" />
+
+                <ImageView
+                    android:id="@+id/flecha4_productos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/texto5_Productos"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font2"
+                    android:gravity="center|left"
+                    android:text="DESGRANADOS"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imagen6_Productos"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/desgranados" />
+
+                <ImageView
+                    android:id="@+id/flecha5_productos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/texto6_Productos"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font2"
+                    android:gravity="center|left"
+                    android:text="PICADAS"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imagen7_Productos"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/picadas" />
+
+                <ImageView
+                    android:id="@+id/flecha6_productos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/texto7_Productos"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font2"
+                    android:gravity="center|left"
+                    android:text="ASADOS"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imagen8_Productos"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/pechuga" />
+
+                <ImageView
+                    android:id="@+id/flecha7_productos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/texto8_Productos"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font2"
+                    android:gravity="center|left"
+                    android:text="PINCHOS"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imagen9_Productos"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/pinchos" />
+
+                <ImageView
+                    android:id="@+id/flecha8_productos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/texto9_Productos"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font2"
+                    android:gravity="center|left"
+                    android:text="BEBIDAS"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imagen10_Productos"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/bebidas" />
+
+                <ImageView
+                    android:id="@+id/flecha9_productos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
+
+
+</FrameLayout>
